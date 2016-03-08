@@ -9,3 +9,6 @@ library("gnumeric")
 getwd()
 df=read.csv("us-500.csv")
 View(df)
+#sumendar sir updates
+dfsum <- read.csv("D:/Data Science Resourses/Box Sync/Data Science Online Training/Class Materials and other stuffs/Hands on/yearly_sales.csv")
+View(dfsum)
