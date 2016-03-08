@@ -1,0 +1,11 @@
+1+1 
+x=15
+y=26
+z=x+y
+installed.packages("ROpenOffice")
+library("gnumeric")
+#df=read.csv("/home/neocursor22/Desktop/us-500.csv")
+#View(df)
+getwd()
+df=read.csv("us-500.csv")
+View(df)
