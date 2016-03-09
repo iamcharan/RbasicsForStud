@@ -2,8 +2,8 @@
 x=15
 y=26
 z=x+y
-installed.packages("ROpenOffice")
-library("gnumeric")
+# installed.packages("ROpenOffice")
+# library("gnumeric")
 #df=read.csv("/home/neocursor22/Desktop/us-500.csv")
 #View(df)
 getwd()
@@ -12,3 +12,5 @@ View(df)
 #sumendar sir updates
 dfsum <- read.csv("D:/Data Science Resourses/Box Sync/Data Science Online Training/Class Materials and other stuffs/Hands on/yearly_sales.csv")
 View(dfsum)
+#charan updates from NC Ubuntu -comment from script
+plot(df$zip,df$phone1,type = 'o', main = "plot by charan")
